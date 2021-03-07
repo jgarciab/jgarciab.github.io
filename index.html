@@ -1,199 +1,735 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Javier Garcia-Bernardo - JavierGB</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="j" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Javier Garcia-Bernardo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-<!-- Theme skin -->
-<link href="skins/default.css" rel="stylesheet" />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v2.0.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-<div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><span>Javier</span>GB</a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-								<li><a href="https://scholar.google.nl/citations?user=vdV5FNsAAAAJ&hl=en">Publications</a></li>
-                        <li><a href="https://github.com/jgarciab">Github</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="contact.html">CV / Contact</a></li>
-                        
-                    </ul>
-                </div>
-            </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Javier GB</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://scholar.google.nl/citations?user=vdV5FNsAAAAJ&hl=en" class="google" target="_blank"><i class="icofont-university"></i></a>
+          <a href="https://twitter.com/javiergb_com" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://github.com/jgarciab/" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://medium.com/@javiergb_com/" class="medium" target="_blank"><i class="bx bxl-medium"></i></a>
+          <a href="https://www.linkedin.com/in/jgarciab/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
-	</header>
-	<!-- end header -->
+      </div>
 
-	<section class="callaction">
-	<div class="container">
-		<div class="row">
-		<div class="col-lg-1">
-		</div>
-			<div class="col-lg-9">
-				<div class="big-cta">					
-				<p>I'm Javier, a data scientist at <a href="https://www.taxjustice.net/" class="link">the Tax Justice Network</a>. Previously I was a PhD candidate at the <a href = "http://www.corpnet.uva.nl/" class="link">CORPNET group <a href = "http://www.uva.nl/" class="link">(University of Amsterdam)</a></a>, and a Computer Science M.Sc. at <a href = "http://www.uvm.edu/" class="link">The University of Vermont</a>. 
-				</p>
-            		
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#about"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!-- <li><a href="#about"><i class="bx bx-home"></i> <span>About</span></a></li> -->
+          
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i>Research</a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#services"><i class="bx bx-server"></i>Teaching</a></li>
+          <li><a href="#blogs"><i class="bx bx-file"></i>Blogs</a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li>
 
-					<p> Research interests: (1) Computational social science: Polarization and inequality (2) Political economy: Corporate networks, tax avoidance, corporate power. (3) Biological Complex Systems: Computational modelling, stochasticity in genetic networks and single-cell dynamics. (4) Data science: Web Scraping, machine learning, data visualization. </p>
-            		
-            		
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="content">
-	<div class="container">
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-		<!-- divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="solidline">
-				</div>
-			</div>
-		</div>
-		<!-- end divider -->
-		
-		<!-- Portfolio Projects 
-		<div class="row">
-			<div class="col-lg-12">
-				<h4 class="heading">Recent Works</h4>
-				<div class="row">
-					<section id="projects">
-					<ul id="thumbs" class="portfolio">
-						<!-- Item Project and Filter Name 
-						<li class="col-lg-3 design" data-id="id-0" data-type="web">
-						<div class="item-thumbs">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image 
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 1" href="img/works/1.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description 
-						<img src="img/works/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</div>
-						</li>
-						<!-- End Item Project 
-						<!-- Item Project and Filter Name 
-						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image 
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 2" href="img/works/2.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description 
-						<img src="img/works/2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project 
-						<!-- Item Project and Filter Name 
-						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image 
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 3" href="img/works/3.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description 
-						<img src="img/works/3.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project 
-						<!-- Item Project and Filter Name 
-						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="illustrator">
-						<!-- Fancybox - Gallery Enabled - Title - Full Image 
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Work 4" href="img/works/4.jpg">
-						<span class="overlay-img"></span>
-						<span class="overlay-img-thumb font-icon-plus"></span>
-						</a>
-						<!-- Thumb Image and Description 
-						<img src="img/works/4.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-						</li>
-						<!-- End Item Project 
-					</ul>
-					</section>
-				</div> 
-			</div>
-		</div>-->
+    </div>
+  </header><!-- End Header -->
 
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Javier Garcia-Bernardo 2019. Adapted from Bootstraptaste</span>
-						</p>
-					</div>
-				</div>
-				
-				<div class="col-lg-6">
-				<ul class="social-network">
-											<a href="https://twitter.com/javiergb_com" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @javiergb_com</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</ul>
-			</div>
-			</div>
-		</div>
-	</div>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+  <!-- ======= Hero Section ======= -->
+<!--   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Javier Garcia-Bernardo</h1>
+      <p>I'm a <span class="typed" data-typed-items="Researcher, Computational Social Scientist, Data Scientist at the Tax Justice Network, Research Consultant"></span></p>
+    </div>
 
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </section> -->
+  <!-- End Hero -->
 
-  ga('create', 'UA-54923510-1', 'auto');
-  ga('send', 'pageview');
+  <main id="main">
 
-</script>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/google-code-prettify/prettify.js"></script>
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
+        <div class="section-title">
+          <h2>About</h2>
+        <p>
+        </p>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Computational Social Scientist</h3>
+            <p class="font-italic">
+              I'm Javier, a postdoc at Charles University <a href="https://corptax.cuni.cz">(CORPTAX)</a> and (from May 2021) at the University of Amsterdam. I am also a data scientist at the <a href="https://www.taxjustice.net">Tax Justice Network<a>. In my research I apply computational models to understand social and economical systems. I completed my PhD in Political Economy at the CORPNET group (University of Amsterdam), and my MSc in Computer Science at the Univerity of Amsterdam.
+            </p>
+            <div class="row">
+              <div class="col-lg-0">
+                <ul>
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li> -->
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li> -->
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Amsterdam, the Netherlands</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> garcia [@] uva.nl | javier [@] taxjustice.net </li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Contact</strong> <a href="https://twitter.com/javiergb_com">Twitter</a> or <a href="https://t.me/javiergb_com">Telegram</a></li>
+
+    <!--               <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Mostly unavailable</li> -->
+                </ul>
+              </div>
+            </div>
+            <p><h4>Research interests:</h4></p>
+            <div class="row">
+              <div class="col-lg-0">
+                <ul>
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li> -->
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li> -->
+                  <li><i class="icofont-rounded-right"></i> <strong>(1)</strong> Computational social science: Polarization and inequality.</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>(2)</strong> Political economy: Corporate networks, tax avoidance, corporate power.</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>(3)</strong> Biological Complex Systems: Stochasticity in genetic networks and single-cell dynamics. </li>
+                  <li><i class="icofont-rounded-right"></i> <strong>(4)</strong> Data science: Web Scraping, machine learning, data visualization. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+<!--     <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">232</span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">521</span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">1,463</span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">15</span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Facts Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Publications and Research Overview</h2>
+           
+
+           <p>I'm planning to add a complete list of paper here, together with their data/code. For now check <a href="https://scholar.google.nl/citations?user=vdV5FNsAAAAJ&hl=en" target="_blank">my Google Scholar page</a>. You can always <a href="#contact">email me</a> for requests about data, code, teaching or consultancy.</p>
+
+
+          <!-- <p><br></p>
+          <p> Four research areas: (1) Computational social science: Polarization and inequality (2) Political economy: Corporate networks, tax avoidance, corporate power. (3) Biological Complex Systems: Computational modelling, stochasticity in genetic networks and single-cell dynamics. (4) Data science: Web Scraping, machine learning, data visualization. .</p>
+           -->
+
+          
+        </div>
+<!-- 
+        <div class="row" >
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Social Complexity</li>
+              <li data-filter=".filter-card">Corporate Networks</li>
+              <li data-filter=".filter-zz">Biological Systems</li>
+              <li data-filter=".filter-web">Data Science</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="0">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-zz filter-web">
+            <div class="portfolio-wrap">
+              <p>dadsf</p> 
+              <div class="portfolio-links">
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+ -->
+<!--           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+    <!-- ======= Skills Section ======= -->
+<!--     <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        <div class="row">
+          <div class="col-lg-0">
+            <p> Check out my CV in <a href ="assets/CV.pdf"> PDF </a> or <a href ="https://www.overleaf.com/read/kjsspxbkgdtk"> Overleaf </a></p>
+          </div>
+
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Academic Career</h3>
+            <div class="resume-item">
+              <h4>PostDoc in Social Complexity</h4>
+              <h5>May 2021 - Present</h5>
+              <p><em>University of Amsterdam, the Netherlands</em></p>
+              <p>Computational modeling of social and behavioral systems.</p>
+            </div>
+            <div class="resume-item">
+              <h4>PostDoc in Economics</h4>
+              <h5>2021 - Present</h5>
+              <p><em>Charles University, Prague, Czechia (Remote)</em></p>
+              <p>Modeling the scale and drivers of corporate tax avoidance.</p>
+            </div>
+            <div class="resume-item">
+              <h4>PhD in Computational Political Economy</h4>
+              <h5>2015 - 2020 </h5>
+              <p><em>University of Amsterdam, the Netherlands</em></p>
+              <p>Computational modeling of the relationships between tax haves and corporations.</p>
+            </div>
+            <div class="resume-item">
+              <h4>MSc in Computer Science</h4>
+              <h5>2013 - 2015 </h5>
+              <p><em>The University of Vermont, United States</em></p>
+              <p>Computational modelling of genetic networks and single-cell dynamics, and of social conflict.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+<!--             <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Javier Garcia-Bernardo</h4>
+              <p><em>Computational scientist with 5+ years of experience modeling and analyzing social, economic and biological systems.</em></p>
+              <ul>
+                <li>Amsterdam, the Netherlands</li>
+
+
+              </ul>
+            </div> -->
+            <div class="resume-item">
+              <h4>BSc in Biotechnology</h4>
+              <h5>2007 - 2012 </h5>
+              <p><em>The University of León, Spain</em></p>
+              <!-- <p>Computational modelling of genetic networks and single-cell dynamics, and of social conflict.</p> -->
+            </div>
+            <h3 class="resume-title">Non-Academic</h3>
+            <div class="resume-item">
+              <h4>Data Scientist at the Tax Justice Network</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Remote </em></p>
+              <ul>
+                <li>Data visualizations. </li>
+                <li>Workflow automation.</li>
+                <li>Research on illicit financial flows.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Consultancy</h4>
+              <h5>2019 - Present</h5>
+              <!-- <p><em>Stepping Stone Advertising, New York, NY</em></p> -->
+              <ul>
+                <li>The International Centre for Tax and Development (ICTD)</li>
+                <li>SEO Amsterdam Economics</li>
+                <li>OECD. Economics Department</li>
+              </ul>
+            </div>
+          </div>
+             </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Teaching</h2>
+        </div>
+
+        <p>Click on the titles to access the materials  <p>
+        <div class="row">
+          <div class="col-lg-6 icon-box">
+            <div class="icon"><i class="icofont-computer"></i></div>
+            <h4 class="title"><a href="https://github.com/jgarciab/wwd2019" target="_blank">Working with data (full course)</a></h4>
+            <p class="description">Introduction to data science with Python/Pandas/Seaborn for research master students of social science (2019, 2018 and 2017).</p>
+          </div>
+          <div class="col-lg-6 icon-box">
+            <div class="icon"><i class="icofont-settings"></i></div>
+           <h4 class="title"><a href="https://github.com/jgarciab/web_scraping" target="_blank">Web scraping workshop</a></h4>
+            <p class="description">Introduction to web scraping using Python, including basics of HTML, APIs, and the requests and selenium libraries (several venues).</p>
+          </div>
+          <div class="col-lg-6  icon-box">
+            <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+            <!-- div class="icon"><i class="icofont-image"></i></div> -->
+           <h4 class="title"><a href="https://slides.com/jgarciab/wwcs2020_dataviz" target="_blank">Data visualization workshop</a></h4>
+            <p class="description">Introduction to data visualization, focused on academic visualization.</p>
+          </div>
+          <div class="col-lg-6  icon-box">
+            <div class="icon"><i class="icofont-tasks-alt"></i></div>
+            <h4 class="title"><a href="https://github.com/jgarciab/text_analysis_python" target="_blank">Text analysis workshop</a></h4>
+            <p class="description">Introduction to sentiment and topic modeling</p>
+          </div>
+          <div class="col-lg-6 icon-box">
+            <div class="icon"><i class="icofont-database"></i></div> 
+            <h4 class="title"><a href="https://medium.com/@javiergb_com/string-matching-and-database-merging-9ef9b4f7fea4" target="_blank">String matching and database merging</a></h4>
+            <p class="description">Machine Learning to compare and join heterogeneous data from heterogeneous sources.</p>
+          </div>
+<!--           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div> -->
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+    <section id="blogs" class="testimonials ">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Blogs</h2>
+<!--           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+            <div class="row">
+              <div class="col-lg-0">
+                <ul>
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li> -->
+                  <!-- <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li> -->
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/visualizing-inequality-in-the-us-the-top-3000-people-own-more-than-the-middle-class-6072500ed8f2">  Oct 10 '18: Visualizing inequality in the US: The top 3000 people own more than the middle class</a></li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/where-does-apple-pay-taxes-5a09955abd92">  Nov 7 '17: Where does Apple pay taxes? </a></li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/towards-a-liquid-democracy-4c4124286e67">Apr 29 '16: Towards a liquid democracy.  </a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/why-testing-positive-for-a-disease-may-not-mean-you-are-sick-4a3a16a290eb"> Aug 8 '15: Why testing positive for a disease may not mean you are sick. Visualization of the Bayes Theorem and Conditional Probability [ENG].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/datos-de-empleo-en-espa%C3%B1a-epa-2015t2-aab65e485bce"> Aug 1 '15: Datos de la precarización del empleo en España (EPA 2015T2) [SPA].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/zonas-a-mejorar-en-madrid-an%C3%A1lisis-de-las-comunicaciones-6d60b5161903"> Jul 28 '15: Zonas a mejorar en Madrid: Análisis de las comunicaciones. [SPA].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/transporte-p%C3%BAblico-en-madrid-an%C3%A1lisis-de-zonas-para-vivir-en-alquiler-13176f0d35ed"> Jul 25 '15: Transporte público en Madrid. Análisis de zonas para vivir en alquiler. [SPA].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/english-spanish-and-dutch-b-v-w-and-f-pronunciation-3cff83cdf8f3"> Jul 13 '15: English, Spanish and Dutch “b”, “v”, “w” and “f” pronunciation. [ENG].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/string-matching-and-database-merging-9ef9b4f7fea4"> Jul 5 '15: String Matching and Database Merging [ENG].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/el-giro-pro-sistema-en-elpais-111c603fef65"> May 7 '15: El giro pro-sistema en ELPAIS [SPA].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/por-qu%C3%A9-las-predicciones-del-tiempo-fallan-88db7ecc1717"> Feb 25 '15: ¿Por qué las predicciones del tiempo fallan? [SPA].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/sentiment-and-semantic-analysis-of-facebook-conversations-eng-8f1f51292241"> Dec 23 '14: Sentiment and Semantic Analysis of Facebook Chats [ENG].</a> </li>
+            <li><i class="icofont-rounded-right"></i><a href ="https://medium.com/@javiergb_com/datos-reales-sobre-la-emigracion-espanola-spa-5e26749002da"> Dec 21 '14: Emigration Flux in Spain [SPA]. </a> </li>
+                </ul>
+              </div>
+            </div>
+    </div>
+  </section>
+    <!-- ======= Testimonials Section =======
+     <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p><b>Get in touch</b></p>
+        </div>
+        
+            <div class="row">
+
+              <div class="col-lg-12 d-flex align-items-stretch">
+
+                <ul>
+                  <li> <i class="icofont-google-map"></i> <strong>Office:</strong> Roeterseiland Campus B9.00, Amsterdam, the Netherlands</li>
+                  <li><i class="icofont-phone"></i> <strong>Phone:</strong> +31 (0) 625 643 671</li>
+                  <li><i class="icofont-envelope"></i> <strong>Email:</strong> javier.garcia.bernardo (at) gmail (dot) com </li>
+                  <li><i class="icofont-envelope"></i> <strong>CV:</strong> <a href ="assets/CV.pdf"> PDF </a> or <a href ="https://www.overleaf.com/read/kjsspxbkgdtk"> Overleaf </a></li>
+                  <li><i class="icofont-twitter"></i> <strong><a href="https://twitter.com/javiergb_com" class="twitter" target="_blank">Twitter</a></strong></li>
+                  <li><i class="icofont-github"></i> <strong><a href="https://github.com/jgarciab/" class="github" target="_blank">Github</a></strong></li>
+                  <li><i class="icofont-university"></i> <strong><a href="https://scholar.google.nl/citations?user=vdV5FNsAAAAJ&hl=en" target="_blank">Google Scholar</a></strong> </li>
+                </ul>
+              <!-- </div> -->
+<!--             </div>
+
+
+        <div>
+          
+          
+          <a href="https://github.com/jgarciab/" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://medium.com/@javiergb_com/" class="medium" target="_blank"><i class="bx bxl-medium"></i></a>
+          <a href="https://www.linkedin.com/in/jgarciab/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+            </div>
+          </div>
+ 
+<!--           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37277.72100954661!2d4.885566866146989!3d52.37153231235622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6099923d98acf%3A0xbd5bb575c29f2943!2sUvA!5e0!3m2!1snl!2snl!4v1608566858981!5m2!1snl!2snl"  frameborder="0" style="border:0; width: 100%; height: 500px;" allowfullscreen></iframe>
+            </div> -->
+<!--             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        Javier Garcia-Bernardo, 2020
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Adapted from <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
