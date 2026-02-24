@@ -1,0 +1,30 @@
+- title: Network Science Summer School
+  band_class: tile-band-teaching-1
+  level: Summer school · Postgraduates and professionals
+  institution: Utrecht University
+  years: 2022, 2023, 2024
+  description: An intensive program introducing core network-science concepts for advanced students and professionals. The format combines theory, practical sessions, and applications across social and computational domains.
+  url: https://net-science.github.io/
+
+- title: Digital Trace Data
+  band_class: tile-band-teaching-2
+  level: Bachelor's level · Applied Data Science minor
+  institution: Utrecht University
+  years: 2023, 2024
+  description: Covers how to collect, clean, and analyze digital trace data in applied settings. Emphasis is on careful measurement, ethical collection and analysis, and awareness of biases and limitations in digital data.
+  url: https://digitaltracedata.github.io/
+
+- title: Processing Complex Data
+  band_class: tile-band-teaching-3
+  level: Master's level · Methods and Statistics
+  institution: Utrecht University
+  years: Upcoming
+  description: Focuses on practical pipelines for messy and high-dimensional social-science data. Students work through data integration, quality checks, and analysis-ready transformations for empirical research.
+
+- title: Data Visualization Workshop
+  band_class: tile-band-teaching-4
+  level: One-day workshop · Postgraduates and professionals
+  institution: Data Science Center, University of Amsterdam
+  years: 2019, 2022, 2023, 2024, 2025
+  description: Hands-on training in principled visualization design for clear and reproducible communication. Chart construction is linked to narrative storytelling so results are both accurate and understandable.
+  url: https://github.com/jgarciab/workshop_data_viz

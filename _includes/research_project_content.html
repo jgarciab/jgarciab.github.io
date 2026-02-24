@@ -1,0 +1,113 @@
+{% assign project = site.data.research_projects[page.project_slug] %}
+{% assign project_line = site.data.research | where: "slug", page.project_slug | first %}
+{% if project %}
+{% assign current_research_lines = site.data.research | where: "status", "current" %}
+{% if current_research_lines and current_research_lines.size > 0 %}
+<nav class="research-jump-row" aria-label="Current research lines">
+{% for line in current_research_lines %}
+<a
+  class="research-jump-tile{% if line.slug == page.project_slug %} is-active{% endif %}"
+  style="--jump-bg: {{ line.tile_color | default: '#dbeafe' }};"
+  href="{{ '/projects/' | append: line.slug | append: '/' | relative_url }}"
+  {% if line.slug == page.project_slug %}aria-current="page"{% endif %}
+>
+  <span class="research-jump-text">
+    <span class="research-jump-title">{{ line.title }}</span>
+    {% if line.years %}
+      <span class="research-jump-years">{{ line.years }}</span>
+    {% endif %}
+  </span>
+</a>
+{% endfor %}
+</nav>
+{% endif %}
+<h1>{{ project.title }}</h1>
+{% if project_line and project_line.years %}
+<p class="item-meta research-period"><strong>Period:</strong> {{ project_line.years }}</p>
+{% endif %}
+{% if project.story %}
+{% for paragraph in project.story %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+{% endif %}
+
+{% if project.grants and project.grants.size > 0 %}
+<h2>Grants and Funded Projects</h2>
+<ul class="item-list research-detail-list">
+{% for grant in project.grants %}
+<li>
+<p class="item-title">
+{% if grant.url and grant.url != blank %}
+<a href="{{ grant.url }}">{{ grant.name }}</a>
+{% else %}
+{{ grant.name }}
+{% endif %}
+</p>
+<p class="item-meta">
+{{ grant.funder }}{% if grant.amount %} · {{ grant.amount }}{% endif %}{% if grant.period %} · {{ grant.period }}{% endif %}
+</p>
+{% if grant.role %}
+<p class="item-meta"><strong>Role:</strong> {{ grant.role }}</p>
+{% endif %}
+{% if grant.description %}
+<p>{{ grant.description }}</p>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if project.outputs_text or project.outputs_url %}
+<h2>Outputs</h2>
+<p>
+{% if project.outputs_url and project.outputs_url != blank %}
+<a href="{{ project.outputs_url }}">{{ project.outputs_text | default: project.outputs_url }}</a>
+{% else %}
+{{ project.outputs_text }}
+{% endif %}
+</p>
+{% endif %}
+
+{% assign publication_ids = site.data.publications.by_project[page.project_slug] %}
+{% if publication_ids and publication_ids.size > 0 %}
+<h2>Selected Publications</h2>
+<ol class="publication-list">
+{% for pub_id in publication_ids %}
+{% assign paper = site.data.publications.items[pub_id] %}
+{% if paper %}
+<li>
+<p class="item-title">
+{% if paper.url and paper.url != blank %}
+<a href="{{ paper.url }}">{{ paper.title }}</a>
+{% else %}
+{{ paper.title }}
+{% endif %}
+</p>
+<p class="item-meta">
+{{ paper.authors }} ({{ paper.year }}).{% if paper.venue %} <em>{{ paper.venue }}</em>.{% endif %}
+</p>
+{% if paper.software_url or paper.code_url or paper.pdf_url %}
+<p class="item-meta">
+{% if paper.software_url %}
+<a class="paper-tag paper-tag-link" href="{{ paper.software_url }}">Software</a>
+{% endif %}
+{% if paper.code_url %}
+<a class="paper-tag paper-tag-link" href="{{ paper.code_url }}">Code</a>
+{% endif %}
+{% if paper.pdf_url %}
+<a class="paper-tag paper-tag-link" href="{{ paper.pdf_url }}">PDF</a>
+{% endif %}
+</p>
+{% endif %}
+{% if paper.note %}
+<p>{{ paper.note }}</p>
+{% endif %}
+</li>
+{% endif %}
+{% endfor %}
+</ol>
+{% endif %}
+{% else %}
+<h1>{{ page.title }}</h1>
+<p class="muted">Project content is being prepared.</p>
+{% endif %}

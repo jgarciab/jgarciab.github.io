@@ -1,0 +1,9 @@
+_site/
+.jekyll-cache/
+.bundle/
+.sass-cache/
+.DS_Store
+vendor/
+
+# Local research synthesis workspace (downloads, notes, parsed metadata)
+research_workspace/

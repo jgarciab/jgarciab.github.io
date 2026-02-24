@@ -1,0 +1,20 @@
+{% assign item = include.item %}
+<article class="tile-card tile-card-link linked-card">
+  {% if item.url %}
+    {% assign project_href = item.url %}
+  {% else %}
+    {% assign project_href = '/projects/' | append: item.slug | append: '/' | relative_url %}
+  {% endif %}
+  <a class="tile-card-anchor" href="{{ project_href }}">
+    <div class="tile-band tile-band-research" style="--tile-band-bg: {{ item.tile_color | default: '#dbeafe' }};">
+      <div class="research-band-text">
+        <span class="tile-band-title">{{ item.title }}</span>
+        {% if item.years %}
+          <span class="tile-band-subtitle research-band-years">{{ item.years }}</span>
+        {% endif %}
+      </div>
+    </div>
+    <p class="tile-summary tile-summary-research">{{ item.summary }}</p>
+    <span class="tile-hover-hint" aria-hidden="true">click for more info</span>
+  </a>
+</article>

@@ -1,0 +1,10 @@
+{% assign people = include.people %}
+{% if people and people.size > 0 %}
+  <div class="tiles-grid tiles-grid-equal people-grid">
+    {% for person in people %}
+      {% include person_tile.html person=person %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="muted empty-note">No entries listed.</p>
+{% endif %}

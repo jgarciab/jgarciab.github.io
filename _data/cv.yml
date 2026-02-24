@@ -1,0 +1,108 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Javier Garcia-Bernardo
+    - name: Email
+      value: j.garciabernardo [@] uu.nl
+    - name: Signal
+      value: javier.64
+    - name: Languages
+      value: Spanish (Mother tongue), English (C2), Dutch (B2)
+    - name: Location
+      value: Utrecht, the Netherlands
+
+- title: Academic Timeline
+  type: time_table
+  contents:
+    - title: Assistant Professor in Methodology & Statistics
+      institution: Utrecht University, the Netherlands
+      year: Oct 2021–Present
+      description:
+        - Computational social science on inequality, polarization, taxation, and economic crime.
+        - Research using population-scale administrative and social network data.
+        - Development of software for social and behavioral science in the ODISSEI Social Data Science (SoDa) team.
+        - Associate Member of the Centre for Complex Systems Studies (CCSS), Utrecht University.
+    - title: Postdoctoral Researcher in Social Complexity
+      institution: University of Amsterdam, the Netherlands
+      year: Jun 2021–Oct 2021
+      description:
+        - Designed online experiments and network-based models of information transmission, fidelity, and divisiveness.
+        - Co-developed the Computational Social and Behavioral Science Community centered at the Institute for Advanced Study.
+    - title: Postdoctoral Researcher in Public Economics
+      institution: Charles University, Prague, Czechia
+      year: Jan 2021–Oct 2021
+      description:
+        - Analyzed profit shifting, effective tax rates, and tax-haven structures using multinational firm-level and country-level data.
+    - title: Data Scientist
+      institution: Tax Justice Network
+      year: 2019–2021
+      description:
+        - Research on corporate tax avoidance and illicit financial flows.
+        - Contributed to evidence briefs, visualizations, and reproducible data workflows for tax justice reporting.
+    - title: Co-founder and Data Scientist
+      institution: Natixio
+      year: 2019–2021
+      description_format: paragraph
+      description:
+        - "Consultancy projects for the International Monetary Fund (2021), the OECD Economics Department (2019, 2020), the World Bank Group Investment Climate Unit (2021), The Left Group in the European Parliament (GUE/NGL) (2021), the International Centre for Tax and Development at the University of Sussex (2020), and SEO Amsterdam Economics (2020)."
+    - title: PhD Candidate, PhD in Computational Political Science
+      institution: University of Amsterdam, the Netherlands
+      year: 2015–2020
+      description:
+        - Network science and computational political economy research on multinational ownership, tax havens, and offshore finance.
+        - Developed large-scale data pipelines and network methods for corporate network analysis.
+    - title: Complex Systems Summer School
+      institution: Santa Fe Institute, United States
+      year: 2018
+    - title: Graduate RA & MSc in Computer Science
+      institution: University of Vermont, United States
+      year: 2013–2015
+      description:
+        - Built stochastic and mechanistic models of genetic regulatory networks and single-cell dynamics.
+        - Developed computational models of social conflict and complex-system dynamics.
+        - Certificate in Complex Systems.
+    - title: BSc in Biotechnology
+      institution: University of León, Spain
+      year: 2007–2012
+
+- title: Selected Grants and Awards
+  type: time_table
+  render: yearly_items
+  contents:
+    - year: 2025
+      items:
+        - "NWO Open Competition XS \"Embedded Lives\" (EUR 50k)"
+        - text_before: "Timothy J. Sinclair Best Article Award (Review of International Political Economy), for \""
+          link_text: "Unfollow the money: mapping the micro agents of international tax"
+          text_after: "\" (with Saila Stausholm)"
+          url: "https://www.tandfonline.com/doi/pdf/10.1080/09692290.2023.2297360?download=true"
+    - year: 2024
+      items:
+        - "NWO VENI \"The Social Contexts of Upward Mobility: Advancing Theory through Novel Prediction Methods\" (EUR 320k)"
+        - "ZonMw BePrepared (co-applicant, UU share) \"Modeling citizens' vaccination choice profiles for more targeted interventions\" (EUR 146k, UU share)"
+        - "Applied Data Science (ADS) 2024 SIG grant (co-applicant) \"Leveraging LLMs for stance detection and political polarization\" (EUR 5k)"
+    - year: 2022
+      items:
+        - text_before: "Best paper prize of the Society of Friends and Alumni of the MPIfG, for \""
+          link_text: "Competing for capitals: the great fragmentation of the firm and varieties of FDI attraction profiles in the European Union"
+          text_after: "\" (with A. Reurink)"
+          url: "https://www.tandfonline.com/doi/pdf/10.1080/09692290.2020.1737564?download=true"
+    - year: 2021
+      items:
+        - First prize in the "V Open Data Contest of the Community of Castilla y León (Spain)" for the website repuebla.me
+    - year: 2020
+      items:
+        - Inclusion in the TaxCOOP 35 Leaders of the Future excellence list
+    - year: 2019
+      items:
+        - First prize of LUCA challenge for responsible use of AI
+    - year: 2018
+      items:
+        - text_before: "David P. Baron Award for the best article published in Business and Politics, for \""
+          link_text: "Hidden power of the Big Three? Passive index funds, re-concentration of corporate ownership, and new financial risk"
+          text_after: "\" (with J. Fichtner and E. M. Heemskerk)"
+          url: "https://www.cambridge.org/core/journals/business-and-politics/article/hiddenpower-of-the-big-three-passive-index-funds-reconcentration-of-corporate-ownershipand-new-financial-risk/30AD689509AAD62F5B677E916C28C4B6"
+    - year: 2015
+      items:
+        - Computer Science Graduate Award for Outstanding Performance and Greatest Promise of Success

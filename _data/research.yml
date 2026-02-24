@@ -1,0 +1,41 @@
+- title: Machine Learning in Social Science
+  slug: machine-learning-social-science
+  status: current
+  years: "2024-"
+  summary: What can machine-learning models reveal about social processes beyond prediction accuracy alone? This project uses high-dimensional and administrative data to identify where models generalize and where performance gaps point to substantive mechanisms.
+  tile_color: "#361c0e"
+
+- title: Networks, Inequality and Polarization
+  slug: networks-and-inequality
+  status: current
+  years: "2024-"
+  summary: Social and institutional ties help structure inequality, mobility, and political polarization. The work combines network topology with behavioral and attitudinal data to trace how divisions emerge and persist over time.
+  tile_color: "#570211"
+
+- title: Taxation and Economic Crime
+  slug: taxation-and-economic-crime
+  status: current
+  years: "2017-"
+  summary: How do ownership structures and jurisdictional strategies enable tax avoidance and illicit financial flows? This research maps corporate power across countries to identify systemic patterns in economic crime.
+  tile_color: "#7e3110"
+
+- title: ODISSEI Social Data Science
+  slug: odissei-social-data-science
+  status: current
+  years: "2022-"
+  summary: ODISSEI SoDa combines collaborative research on shared Dutch data infrastructure with practical software development, building reusable tools and reproducible workflows for policy-relevant social science.
+  tile_color: "#004540"
+
+- title: Corporate Power and Networks
+  slug: corporate-networks
+  status: previous
+  years: "2015-2019"
+  summary: Global corporate ownership networks can reveal who controls economic resources across borders. This project measured concentration and dependence, highlighting how offshore and intermediary jurisdictions organize influence.
+  tile_color: "#032c4d"
+
+- title: Stochasticity in Genetic Networks
+  slug: stochasticity-genetic-networks
+  status: previous
+  years: "2012-2015"
+  summary: Why do genetically identical cells behave differently over time? This work modeled stochastic gene-regulation dynamics to study pulsing, noise propagation, and how microscopic variability scales to population-level outcomes.
+  tile_color: "#360825"

@@ -1,0 +1,132 @@
+machine-learning-social-science:
+  title: Machine Learning in Social Science
+  story:
+  - Social-science theories are often evaluated with a single model specification,
+    which makes it hard to compare competing explanations and to identify where theories
+    fail.
+  - 'This line uses benchmark-style evaluation, prediction gaps, and large administrative/survey
+    data to connect prediction to explanation: where model performance diverges, we
+    gain substantive clues about hidden mechanisms and subgroup-specific dynamics.'
+  grants:
+  - name: 'NWO Veni: The Social Contexts of Upward Mobility'
+    funder: NWO
+    amount: EUR 320k
+    period: 2024-2027
+    role: Principal Investigator
+    description: Population-scale modeling of educational and socioeconomic mobility
+      using social-context networks and predictive methods that bridge explanation
+      and forecasting.
+  - name: 'NWO Open Competition XS: Embedded Lives'
+    funder: NWO
+    amount: EUR 50k
+    period: 2025-2026
+    role: Principal Investigator
+    description: Graph-based modeling of Dutch population life courses, including
+      embedding methods and reusable infrastructure for context-aware social-data
+      analysis.
+  - name: 'ZonMw BePrepared: Vaccination Decision Profiles'
+    funder: ZonMw
+    amount: EUR 146k (UU share)
+    period: 2024-2025
+    role: Co-applicant
+    description: Data-driven modeling of vaccination decision profiles and uptake,
+      combining survey beliefs/values with CBS microdata and network structure for
+      targeted interventions.
+networks-and-inequality:
+  title: Networks, Inequality and Polarization
+  story:
+  - Why do inequality and polarization persist even when individuals face similar
+    formal opportunities? A central hypothesis is that relational structure, not only
+    individual traits, shapes outcomes. This line models schools, families, neighborhoods,
+    and online ties as interconnected systems, testing how network position, social
+    context, and interaction patterns produce unequal trajectories and polarized
+    attitudes.
+  - In social media settings, this work examines how belief systems, signed ties,
+    and information exposure shape polarization, hidden extremes, and possible pathways
+    to depolarization.
+  grants:
+  - name: 'NWO Veni: The Social Contexts of Upward Mobility'
+    funder: NWO
+    amount: EUR 320k
+    period: 2024-2027
+    role: Principal Investigator
+    description: Estimates how combinations of social contexts (family, school, neighborhood,
+      peers) structure mobility and inequality using whole-population network data.
+  - name: 'ZonMw BePrepared: Vaccination Decision Profiles'
+    funder: ZonMw
+    amount: EUR 146k (UU share)
+    period: 2024-2025
+    role: Co-applicant
+    description: Quantifies how beliefs and social connectivity jointly shape vaccination
+      uptake across communities and subpopulations.
+  - name: 'FSBS Starter Grant: Uncovering the Dynamics of Belief Systems'
+    funder: Faculty of Social and Behavioural Sciences (UU)
+    amount: 1 PhD
+    period: '2024'
+    role: Co-applicant
+    description: Develops network-based and social-media-based methodology to study
+      belief-system polarization, supporting the Ozgur Togay PhD line.
+  - name: 'Applied Data Science (ADS) SIG Grant: Leveraging LLMs for Stance Detection
+      and Political Polarization'
+    funder: Applied Data Science, Utrecht University
+    amount: EUR 5k
+    period: 2024-2025
+    role: Co-applicant
+    description: Builds and validates LLM-based target/stance detection workflows
+      for measuring online political polarization, including a FAIR benchmark dataset.
+taxation-and-economic-crime:
+  title: Taxation and Economic Crime
+  story:
+  - Profit shifting, illicit financial flows, and corporate opacity erode public revenue
+    and distort competition, with disproportionate consequences for lower-income countries
+    and vulnerable groups.
+  - This line maps corporate ownership networks and jurisdictional strategies, combining
+    firm-level and country-level data to identify where profits are shifted, which
+    intermediaries enable it, and where policy intervention can be most effective.
+  - It directly extends my PhD research on offshore corporate structures and tax havens,
+    and my policy-facing analytics work at the Tax Justice Network.
+  grants:
+  - name: AMLC Co-funding for PhD on Illicit Financial Flows
+    funder: Anti Money Laundering Centre (AMLC)
+    period: Ongoing
+    role: Co-supervision / research line lead
+    description: Supports PhD research (Elena) on illicit financial flows, corporate
+      networks, and detection strategies for economic crime.
+odissei-social-data-science:
+  title: ODISSEI Social Data Science
+  story:
+  - ODISSEI SoDa develops collaborative computational social-science projects that
+    combine large Dutch administrative data, surveys, and reproducible computational
+    pipelines.
+  - 'Alongside substantive research, we build software for social-science research:
+    reusable tools, transparent workflows, and scalable methods that can be transferred
+    across domains such as fertility, mobility, public health, and inequality.'
+  grants:
+  - name: ODISSEI SoDa Collaborative Program
+    funder: ODISSEI
+    amount: Programmatic support
+    period: Ongoing
+    role: Team member
+    description: Cross-institution collaboration on computational social-science projects
+      using shared Dutch data infrastructure.
+    url: https://odissei-soda.nl/projects/
+  outputs_text: For outputs, check the ODISSEI SoDa website.
+  outputs_url: https://odissei-soda.nl/
+corporate-networks:
+  title: Corporate Power and Networks
+  story:
+  - Who controls global corporate capital, and through which ownership pathways does
+    that control travel across jurisdictions?
+  - This line built large-scale maps of corporate ownership and board structures to
+    identify concentration, transnational control, and the role of intermediary jurisdictions
+    in shaping economic and political power.
+  grants: []
+stochasticity-genetic-networks:
+  title: Stochasticity in Genetic Networks
+  story:
+  - Genetically similar cells can follow different trajectories, and this microscopic
+    stochasticity is central to development, differentiation, and disease.
+  - This line combines single-cell sequencing and dynamic modeling to characterize
+    how noise, timing, and regulatory interactions shape cell-state transitions across
+    developmental processes.
+  grants: []

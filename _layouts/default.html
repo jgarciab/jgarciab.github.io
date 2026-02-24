@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;500;700&display=swap"
+    >
+    <script>
+      (function () {
+        var storedTheme = localStorage.getItem("theme");
+        var theme = storedTheme === "light" || storedTheme === "dark" ? storedTheme : "light";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <div class="header-left">
+          <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          <p class="header-social-links">
+            <a href="https://github.com/jgarciab">GitHub</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://scholar.google.com/citations?user=vdV5FNsAAAAJ">Google Scholar</a>
+            <span aria-hidden="true">|</span>
+            <a href="https://www.odissei-soda.com/">SoDa Team</a>
+          </p>
+        </div>
+        <div class="header-right">
+          <nav class="site-nav" aria-label="Main">
+            <a href="{{ '/' | relative_url }}"{% if page.nav_key == 'about' %} class="active"{% endif %}>About</a>
+            <a href="{{ '/research/' | relative_url }}"{% if page.nav_key == 'research' %} class="active"{% endif %}>Research</a>
+            <a href="{{ '/teaching/' | relative_url }}"{% if page.nav_key == 'teaching' %} class="active"{% endif %}>Teaching</a>
+            <a href="{{ '/cv/' | relative_url }}"{% if page.nav_key == 'cv' %} class="active"{% endif %}>CV</a>
+            <a href="{{ '/people/' | relative_url }}"{% if page.nav_key == 'people' %} class="active"{% endif %}>Team</a>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle color theme">
+              <span class="theme-icon" aria-hidden="true"></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Contact: j.garciabernardo [@] uu.nl</p>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var btn = document.getElementById("theme-toggle");
+        if (!btn) return;
+        var sunIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1zm0 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm8-5a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2h-1zM3 12a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2H3zm13.657 6.243a1 1 0 0 1 1.414 0l.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 0-1.414zm-10.728 0a1 1 0 0 1 0 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zM18.778 4.636a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zm-13.556 0a1 1 0 0 1 1.414 0l.707.707A1 1 0 0 1 5.93 6.757l-.707-.707a1 1 0 0 1 0-1.414z"/></svg>';
+        var moonIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.5 3a1 1 0 0 1 .243 1.97A8 8 0 1 0 19.03 11.257a1 1 0 0 1 1.97.243A10 10 0 1 1 12.5 3z"/></svg>';
+        function syncButton() {
+          var theme = root.getAttribute("data-theme") || "light";
+          btn.innerHTML = '<span class="theme-icon" aria-hidden="true">' + (theme === "dark" ? sunIcon : moonIcon) + "</span>";
+          btn.setAttribute("aria-label", theme === "dark" ? "Switch to light mode" : "Switch to dark mode");
+          btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+        }
+        btn.addEventListener("click", function () {
+          var current = root.getAttribute("data-theme") || "light";
+          var next = current === "dark" ? "light" : "dark";
+          root.setAttribute("data-theme", next);
+          localStorage.setItem("theme", next);
+          syncButton();
+        });
+        syncButton();
+      })();
+      (function () {
+        var links = document.querySelectorAll('a[href]');
+        links.forEach(function (link) {
+          var href = link.getAttribute('href');
+          if (!href) return;
+          if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) return;
+          try {
+            var url = new URL(href, window.location.href);
+            if (url.protocol === 'http:' || url.protocol === 'https:') {
+              if (url.origin !== window.location.origin) {
+                link.setAttribute('target', '_blank');
+                link.setAttribute('rel', 'noopener noreferrer');
+              }
+            }
+          } catch (e) {
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

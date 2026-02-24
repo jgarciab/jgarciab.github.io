@@ -1,0 +1,25 @@
+{% assign item = include.item %}
+<article class="tile-card{% if item.url and item.url != blank %} tile-card-link linked-card{% endif %}">
+  {% if item.url and item.url != blank %}
+    <a class="tile-card-anchor" href="{{ item.url }}">
+  {% endif %}
+  <div class="tile-band tile-band-teaching {{ item.band_class }}">
+    <div class="teaching-band-text">
+      <span class="tile-band-title">{{ item.title }}</span>
+      {% if item.institution %}
+        <span class="tile-band-subtitle teaching-band-institution">{{ item.institution }}</span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="teaching-meta-row">
+    <p class="item-meta teaching-meta"><strong>Target group:</strong> {{ item.level }}</p>
+    <p class="item-meta teaching-meta"><strong>Editions:</strong> {{ item.years }}</p>
+  </div>
+  <p class="teaching-description tile-summary tile-summary-teaching">{{ item.description }}</p>
+  {% if item.url and item.url != blank %}
+    <span class="tile-hover-hint" aria-hidden="true">click for more info</span>
+  {% endif %}
+  {% if item.url and item.url != blank %}
+    </a>
+  {% endif %}
+</article>

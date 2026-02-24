@@ -1,0 +1,485 @@
+items:
+  prediction-gaps-as-pathways-to-explanation-rethinking-2025:
+    title: 'Prediction Gaps as Pathways to Explanation: Rethinking Educational Outcomes through Differences in Model Performance'
+    authors: J Garcia-Bernardo, E Jaspers, W Machado, S Plach, EJ van Leeuwen
+    year: 2025
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2506.22993
+    pdf_url: https://arxiv.org/pdf/2506.22993.pdf
+    code_url: https://github.com/jgarciab/cbs_gnn_ads
+    tags:
+    - First author
+    - High impact
+    - Substantive + methodological
+  population-scale-network-embeddings-expose-educational-divides-2:
+    title: Population-Scale Network Embeddings Expose Educational Divides in Network Structure Related to Right-Wing Populist Voting
+    authors: M Luken, J Garcia-Bernardo, S Deb, F Hafner, M Khosla
+    year: 2025
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2508.21236
+    pdf_url: https://arxiv.org/pdf/2508.21236.pdf
+    tags:
+    - Co-author
+    - Substantive
+  using-large-language-models-for-text-annotation-2025:
+    title: 'Using Large Language Models for Text Annotation in Social Science and Humanities: A Hands-On Python/R Tutorial'
+    authors: Q Fang, J Garcia-Bernardo, EJ van Kesteren
+    year: 2025
+    venue: OSF preprint
+    url: https://doi.org/10.31235/osf.io/v4eq6_v1
+    pdf_url: https://osf.io/v4eq6/download
+    software_url: https://sodascience.github.io/workshop_llm_data_collection/
+    tags:
+    - Co-author
+    - Methodological
+    - Software + methods
+  combining-the-strengths-of-dutch-survey-and-2024:
+    title: Combining the strengths of Dutch survey and register data in a data challenge to predict fertility (PreFer)
+    authors: E Sivak, P Pankowska, A Mendrik, T Emery, J Garcia-Bernardo, et al.
+    year: 2024
+    venue: Journal of Computational Social Science
+    url: https://link.springer.com/article/10.1007/s42001-024-00275-6
+    pdf_url: https://link.springer.com/content/pdf/10.1007/s42001-024-00275-6.pdf
+    tags:
+    - Co-author
+    - Substantive + methodological
+    - Collaborative infrastructure
+  the-potential-of-benchmark-challenges-in-the-2024:
+    title: The potential of benchmark challenges in the social sciences
+    authors: P Pankowska, A Mendrik, T Emery, J Garcia-Bernardo
+    year: 2024
+    venue: Social Science Information
+    url: https://journals.sagepub.com/doi/10.1177/05390184241297742
+    tags:
+    - Co-author
+    - Methodological
+    - Collaborative infrastructure
+  avoiding-overfitting-in-variable-order-markov-models-2025:
+    title: 'Avoiding Overfitting in Variable-Order Markov Models: a Cross-Validation Approach'
+    authors: V Secchini, J Garcia-Bernardo, P Jansky
+    year: 2025
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/2501.14476
+    pdf_url: https://arxiv.org/pdf/2501.14476.pdf
+    code_url: https://github.com/Valer7a/divop
+    tags:
+    - Co-author
+    - Methodological
+  involvement-as-a-polarizing-factor-a-comprehensive-2025:
+    title: Involvement as a Polarizing Factor? A Comprehensive Multi-Method Analysis across Representative Datasets
+    authors: M Hoffstadt, I Smal, H van der Maas, J Garcia-Bernardo
+    year: 2025
+    venue: European Journal of Social Psychology
+    url: https://onlinelibrary.wiley.com/doi/10.1002/ejsp.3132
+    pdf_url: /assets/files/publications/involvement-polarizing-factor-hoffstadt-2024.pdf
+    tags:
+    - Co-author
+    - Substantive
+  remode-recursive-modality-detection-in-distributions-of-2026:
+    title: ReMoDe - Recursive modality detection in distributions of ordinal data
+    authors: M Hoffstadt, L Waldorp, J Garcia-Bernardo, H van der Maas
+    year: 2026
+    venue: British Journal of Mathematical and Statistical Psychology
+    url: https://doi.org/10.1111/bmsp.70037
+    software_url: https://zenodo.org/records/18743126
+    tags:
+    - Co-author
+    - Methodological
+  community-detection-in-bipartite-signed-networks-is-2025:
+    title: Community detection in bipartite signed networks is highly dependent on parameter choice
+    authors: E Candellone, EJ van Kesteren, S Chelmi, J Garcia-Bernardo
+    year: 2025
+    venue: Advances in Complex Systems
+    url: https://doi.org/10.1142/S0219525925400028
+    pdf_url: https://arxiv.org/pdf/2405.08203.pdf
+    code_url: https://github.com/elenacandellone/signed-bipartite-nets
+    tags:
+    - Co-author
+    - Methodological
+  negative-ties-highlight-hidden-extremes-in-social-2025:
+    title: Negative ties highlight hidden extremes in social media polarization
+    authors: E Candellone, SA Babul, O Togay, A Bovet, J Garcia-Bernardo
+    year: 2025
+    venue: Network Science
+    url: https://www.cambridge.org/core/journals/network-science/article/negative-ties-highlight-hidden-extremes-in-social-media-polarization/0C314CE8BF4A5F875A6612B6D77DA2D5
+    pdf_url: /assets/files/publications/negative-ties-social-media-polarization-2025.pdf
+    code_url: https://github.com/elenacandellone/negative-ties-polarization
+    tags:
+    - Co-author
+    - Substantive
+  assessing-covid-19-transmission-through-school-and-2024:
+    title: Assessing COVID-19 transmission through school and family networks using population-level registry data from the Netherlands
+    authors: J Garcia-Bernardo, C Hedde-von Westernhagen, T Emery, AJ van Hoek
+    year: 2024
+    venue: Scientific Reports
+    url: https://www.nature.com/articles/s41598-024-82646-7
+    pdf_url: https://www.nature.com/articles/s41598-024-82646-7.pdf
+    code_url: https://github.com/jgarciab/covid_schools/
+    tags:
+    - First author
+    - High impact
+    - Substantive + infrastructure
+  predicting-covid-19-infections-using-multi-layer-2024:
+    title: Predicting COVID-19 infections using multi-layer centrality measures in population-scale networks
+    authors: C Hedde-von Westernhagen, A Bagheri, J Garcia-Bernardo
+    year: 2024
+    venue: Applied Network Science
+    url: https://link.springer.com/article/10.1007/s41109-024-00632-4
+    pdf_url: https://link.springer.com/content/pdf/10.1007/s41109-024-00632-4.pdf
+    code_url: https://github.com/christine-hvw/thesis_disclosed/tree/publication
+    tags:
+    - Co-author
+    - Substantive
+  social-transmission-along-multiple-pathways-promotes-information:
+    title: Social Transmission along Multiple Pathways Promotes Information Fidelity and Reduces Divisiveness
+    authors: Z Neu, J Garcia-Bernardo, M Hardy, A Santoro, A Morgan, et al.
+    year: 2025
+    venue: OSF preprint
+    url: https://doi.org/10.31234/osf.io/dg8zj_v1
+    pdf_url: https://osf.io/dg8zj/download
+    code_url: https://github.com/jgarciab/info_transmission_networks
+    tags:
+    - Co-author
+    - Substantive
+  profit-shifting-of-multinational-corporations-worldwide-2024:
+    title: Profit shifting of multinational corporations worldwide
+    authors: J Garcia-Bernardo, P Janský
+    year: 2024
+    venue: World Development
+    url: https://www.sciencedirect.com/science/article/pii/S0305750X23003455
+    pdf_url: https://arxiv.org/pdf/2201.08444.pdf
+    tags:
+    - First author
+    - High impact
+  multinational-corporations-and-tax-havens-evidence-from-2021:
+    title: 'Multinational corporations and tax havens: evidence from country-by-country reporting'
+    authors: J Garcia-Bernardo, P Janský, T Tørsløv
+    year: 2021
+    venue: International Tax and Public Finance
+    url: https://link.springer.com/article/10.1007/s10797-020-09639-w
+    pdf_url: https://www.econstor.eu/bitstream/10419/228072/1/1682229130.pdf
+    code_url: https://osf.io/ew67b/
+    tags:
+    - First author
+    - High impact
+  effective-tax-rates-of-multinational-corporations-country-2023:
+    title: 'Effective tax rates of multinational corporations: Country-level estimates'
+    authors: J Garcia-Bernardo, P Janský, T Torslov
+    year: 2023
+    venue: PLOS ONE
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0293552
+    pdf_url: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0293552&type=printable
+    code_url: https://osf.io/cmpdj/
+    tags:
+    - First author
+    - High impact
+  decomposing-multinational-corporations-declining-effective-tax-r:
+    title: Decomposing Multinational Corporations' Declining Effective Tax Rates
+    authors: J Garcia-Bernardo, P Janský, T Torslov
+    year: 2022
+    venue: IMF Economic Review
+    url: https://doi.org/10.1057/s41308-022-00157-9
+    pdf_url: https://www.econstor.eu/bitstream/10419/228080/1/1685680011.pdf
+    code_url: https://osf.io/nu42h/
+    tags:
+    - First author
+    - Substantive
+  did-the-tax-cuts-and-jobs-act-2022:
+    title: Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?
+    authors: J Garcia-Bernardo, P Janský, G Zucman
+    year: 2022
+    venue: NBER Working Paper
+    url: https://www.nber.org/papers/w30086
+    pdf_url: https://www.nber.org/system/files/working_papers/w30086/w30086.pdf
+    code_url: https://github.com/jgarciab/code_tcja_profit_shifting
+    tags:
+    - First author
+    - Policy impact
+  unfollow-the-money-mapping-the-micro-agents-2024:
+    title: 'Unfollow the money: mapping the micro agents of international tax'
+    authors: S Stausholm, J Garcia-Bernardo
+    year: 2024
+    venue: Review of International Political Economy
+    url: https://www.tandfonline.com/doi/10.1080/09692290.2023.2297360
+    code_url: https://osf.io/tceyr/
+    tags:
+    - Last author
+    - High impact
+  the-wealth-defence-industry-a-large-scale-2021:
+    title: 'The Wealth Defence Industry: A Large-scale Study on Accountancy Firms as Profit Shifting Facilitators'
+    authors: L Ajdacic, EM Heemskerk, J Garcia-Bernardo
+    year: 2021
+    venue: New Political Economy
+    url: https://www.tandfonline.com/doi/10.1080/13563467.2020.1816947
+    pdf_url: https://pure.uva.nl/ws/files/85957336/13563467.2020.pdf
+    tags:
+    - Last author
+    - Substantive
+  uncovering-the-size-of-the-illegal-corporate-2022:
+    title: 'Uncovering the size of the illegal corporate service provider industry in the Netherlands: a network approach'
+    authors: J Garcia-Bernardo, J Witteman, M Vlaanderen
+    year: 2022
+    venue: EPJ Data Science
+    url: https://arxiv.org/abs/2112.05019
+    pdf_url: https://arxiv.org/pdf/2112.05019.pdf
+    tags:
+    - First author
+    - Economic crime
+  profit-shifting-by-multinational-corporations-evidence-from-2022:
+    title: 'Profit shifting by multinational corporations: Evidence from transaction-level data in Nigeria'
+    authors: B Gabanatlhong, J Garcia-Bernardo, P Iyika, M Palansky
+    year: 2022
+    venue: WIDER Working Paper
+    url: https://doi.org/10.35188/unu-wider/2022/167-9
+    pdf_url: https://www.wider.unu.edu/sites/default/files/Publications/Working-paper/PDF/wp2022-36-profit-shifting-multinational-corporations-transaction-level-data-Nigeria.pdf
+    tags:
+    - Co-author
+    - Economic crime
+  statistical-measurement-of-illicit-financial-flows-in-2021:
+    title: 'Statistical measurement of illicit financial flows in Sustainable Development Goals: Tax avoidance by multinational corporations'
+    authors: A Cobham, J Garcia-Bernardo, P Jansky, M Palansky
+    year: 2021
+    venue: IES Working Paper
+    url: https://www.econstor.eu/bitstream/10419/247391/1/wp2021-24.pdf
+    pdf_url: https://www.econstor.eu/bitstream/10419/247391/1/wp2021-24.pdf
+    tags:
+    - Co-author
+    - Policy impact
+  the-excess-profits-during-covid-19-and-2024:
+    title: The excess profits during COVID-19 and their tax revenue potential
+    authors: E Dubinina, J Garcia-Bernardo, P Janský
+    year: 2024
+    venue: Empirica
+    url: https://doi.org/10.1007/s10663-024-09630-2
+    pdf_url: https://research-portal.uu.nl/ws/portalfiles/portal/243685351/s10663-024-09630-2.pdf
+    tags:
+    - Co-author
+    - Policy impact
+  a-practical-proposal-to-end-corporate-tax-2022:
+    title: 'A Practical Proposal to End Corporate Tax Abuse: METR, a Minimum Effective Tax Rate for Multinationals'
+    authors: A Cobham, T Faccio, J Garcia-Bernardo, P Janský, J Kadet, S Picciotto
+    year: 2022
+    venue: Global Policy
+    url: https://doi.org/10.1111/1758-5899.13029
+    pdf_url: https://oxfordtax.sbs.ox.ac.uk/files/wp20-15pdf
+    tags:
+    - Co-author
+    - Policy impact
+  netcbs-package-to-efficiently-create-network-measures-2024:
+    title: 'netCBS: Package to efficiently create network measures using CBS networks (POPNET) in the RA'
+    authors: J Garcia-Bernardo
+    year: 2024
+    venue: Zenodo software release
+    url: https://doi.org/10.5281/zenodo.13908120
+    software_url: https://github.com/sodascience/netCBS
+    tags:
+    - First author
+    - Software
+  artscraper-a-python-library-to-scrape-online-2024:
+    title: 'ArtScraper: A Python library to scrape online artworks'
+    authors: R Schram, M Mitra, J de Bruin, EJ van Kesteren, E Stamkou, et al.
+    year: 2024
+    venue: Zenodo software release
+    url: https://zenodo.org/records/11204447
+    software_url: https://github.com/sodascience/artscraper/
+    tags:
+    - Co-author
+    - Software
+  uncovering-offshore-financial-centers-conduits-and-sinks-2017:
+    title: 'Uncovering offshore financial centers: Conduits and sinks in the global corporate ownership network'
+    authors: J Garcia-Bernardo, J Fichtner, FW Takes, EM Heemskerk
+    year: 2017
+    venue: Scientific Reports
+    url: https://www.nature.com/articles/s41598-017-06322-9
+    pdf_url: https://www.nature.com/articles/s41598-017-06322-9.pdf
+    tags:
+    - First author
+    - High impact
+  hidden-power-of-the-big-three-passive-2017:
+    title: Hidden power of the Big Three? Passive index funds, re-concentration of corporate ownership, and new financial risk
+    authors: J Fichtner, EM Heemskerk, J Garcia-Bernardo
+    year: 2017
+    venue: Business and Politics
+    url: https://www.cambridge.org/core/journals/business-and-politics/article/hiddenpower-of-the-big-three-passive-index-funds-reconcentration-of-corporate-ownershipand-new-financial-risk/30AD689509AAD62F5B677E916C28C4B6
+    tags:
+    - Co-author
+    - High impact
+  the-promise-and-perils-of-using-big-2018:
+    title: 'The promise and perils of using big data in the study of corporate networks: Problems, diagnostics and fixes'
+    authors: EM Heemskerk, FW Takes, B Cronin, J Garcia-Bernardo
+    year: 2018
+    venue: Global Networks
+    url: https://onlinelibrary.wiley.com/doi/10.1111/glob.12183
+    tags:
+    - Co-author
+    - Methodological
+  the-rise-of-transnational-state-capital-state-2020:
+    title: 'The rise of transnational state capital: state-led foreign investment in the 21st century'
+    authors: M Babić, J Garcia-Bernardo, EM Heemskerk
+    year: 2020
+    venue: Review of International Political Economy
+    url: https://www.tandfonline.com/doi/10.1080/09692290.2019.1665084
+    tags:
+    - Co-author
+    - High impact
+  competing-for-capitals-the-great-fragmentation-of-2021:
+    title: 'Competing for capitals: the great fragmentation of the firm and varieties of FDI attraction profiles in the European Union'
+    authors: A Reurink, J Garcia-Bernardo
+    year: 2021
+    venue: Review of International Political Economy
+    url: https://www.tandfonline.com/doi/10.1080/09692290.2020.1737564
+    tags:
+    - Last author
+    - High impact
+  where-is-the-global-corporate-elite-a-2016:
+    title: Where is the global corporate elite? A large-scale network study of local and nonlocal interlocking directorates
+    authors: EM Heemskerk, FW Takes, J Garcia-Bernardo, MJ Huijzer
+    year: 2016
+    venue: arXiv preprint
+    url: https://arxiv.org/abs/1604.04722
+    pdf_url: https://arxiv.org/pdf/1604.04722.pdf
+    tags:
+    - Co-author
+    - Substantive
+  the-effects-of-data-quality-on-the-2018:
+    title: The effects of data quality on the analysis of corporate board interlock networks
+    authors: J Garcia-Bernardo, FW Takes
+    year: 2018
+    venue: Information Systems
+    url: https://doi.org/10.1016/j.is.2017.10.005
+    tags:
+    - First author
+    - Methodological
+  does-it-pay-to-be-a-multinational-2020:
+    title: Does it pay to be a multinational? A large-sample, cross-national replication assessing the multinationality-performance relationship
+    authors: N Pisani, J Garcia-Bernardo, et al.
+    year: 2020
+    venue: Strategic Management Journal
+    url: https://onlinelibrary.wiley.com/doi/10.1002/smj.3087
+    tags:
+    - Co-author
+    - Substantive
+  institutional-shareholding-common-ownership-and-productivity-a-2:
+    title: 'Institutional shareholding, common ownership and productivity: A cross-country analysis'
+    authors: M Bas, L Demmou, J Garcia-Bernardo
+    year: 2023
+    venue: OECD Observer
+    tags:
+    - Co-author
+    - Substantive
+  how-does-business-power-operate-a-framework-2022:
+    title: How does business power operate? A framework for its working mechanisms
+    authors: M Babić, J Huijzer, J Garcia-Bernardo, D Valeeva
+    year: 2022
+    venue: Business and Politics
+    url: https://www.cambridge.org/core/journals/business-and-politics/article/how-does-business-power-operate-a-framework-for-its-working-mechanisms/D5B690F0BE0A1AF8C592A0343A11C8E7
+    tags:
+    - Co-author
+    - Conceptual
+  proximity-at-a-distance-the-relationship-between-2022:
+    title: 'Proximity at a distance: The relationship between foreign subsidiary co-location and MNC headquarters board interlock formation'
+    authors: F De Beule, S Elia, J Garcia-Bernardo, EM Heemskerk, et al.
+    year: 2022
+    venue: International Business Review
+    url: https://doi.org/10.1016/j.ibusrev.2021.101971
+    tags:
+    - Co-author
+    - Substantive
+  states-versus-corporations-rethinking-the-power-of-2017:
+    title: 'States versus Corporations: Rethinking the Power of Business in International Politics'
+    authors: M Babić, J Fichtner, EM Heemskerk
+    year: 2017
+    venue: The International Spectator
+    url: https://www.tandfonline.com/doi/10.1080/03932729.2017.1389156
+    tags:
+    - Related line
+    - Conceptual
+  tunable-stochastic-pulsing-in-the-escherichia-coli-2013:
+    title: Tunable Stochastic Pulsing in the Escherichia coli Multiple Antibiotic Resistance Network from Interlinked Positive and Negative Feedback Loops
+    authors: J Garcia-Bernardo, MJ Dunlop
+    year: 2013
+    venue: PLoS Computational Biology
+    url: https://doi.org/10.1371/journal.pcbi.1003229
+    pdf_url: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003229&type=printable
+    tags:
+    - First author
+    - High impact
+  noise-and-low-level-dynamics-can-coordinate-2015:
+    title: Noise and low-level dynamics can coordinate multicomponent bet hedging mechanisms
+    authors: J Garcia-Bernardo, MJ Dunlop
+    year: 2015
+    venue: Biophysical Journal
+    url: https://doi.org/10.1016/j.bpj.2014.11.048
+    tags:
+    - First author
+    - Substantive
+  phenotypic-diversity-using-bimodal-and-unimodal-expression-2016:
+    title: Phenotypic diversity using bimodal and unimodal expression of stress response proteins
+    authors: J Garcia-Bernardo, MJ Dunlop
+    year: 2016
+    venue: Biophysical Journal
+    url: https://doi.org/10.1016/j.bpj.2016.04.012
+    tags:
+    - First author
+    - Substantive
+  evolving-modular-genetic-regulatory-networks-with-a-2015:
+    title: Evolving modular genetic regulatory networks with a recursive, top-down approach
+    authors: J Garcia-Bernardo, MJ Eppstein
+    year: 2015
+    venue: Systems and Synthetic Biology
+    url: https://doi.org/10.1007/s11693-015-9179-5
+    tags:
+    - First author
+    - Methodological
+by_project:
+  machine-learning-social-science:
+  - prediction-gaps-as-pathways-to-explanation-rethinking-2025
+  - population-scale-network-embeddings-expose-educational-divides-2
+  - using-large-language-models-for-text-annotation-2025
+  - combining-the-strengths-of-dutch-survey-and-2024
+  - the-potential-of-benchmark-challenges-in-the-2024
+  - avoiding-overfitting-in-variable-order-markov-models-2025
+  networks-and-inequality:
+  - population-scale-network-embeddings-expose-educational-divides-2
+  - involvement-as-a-polarizing-factor-a-comprehensive-2025
+  - remode-recursive-modality-detection-in-distributions-of-2026
+  - community-detection-in-bipartite-signed-networks-is-2025
+  - negative-ties-highlight-hidden-extremes-in-social-2025
+  - assessing-covid-19-transmission-through-school-and-2024
+  - predicting-covid-19-infections-using-multi-layer-2024
+  - social-transmission-along-multiple-pathways-promotes-information
+  - prediction-gaps-as-pathways-to-explanation-rethinking-2025
+  - netcbs-package-to-efficiently-create-network-measures-2024
+  taxation-and-economic-crime:
+  - profit-shifting-of-multinational-corporations-worldwide-2024
+  - multinational-corporations-and-tax-havens-evidence-from-2021
+  - effective-tax-rates-of-multinational-corporations-country-2023
+  - decomposing-multinational-corporations-declining-effective-tax-r
+  - did-the-tax-cuts-and-jobs-act-2022
+  - unfollow-the-money-mapping-the-micro-agents-2024
+  - the-wealth-defence-industry-a-large-scale-2021
+  - uncovering-the-size-of-the-illegal-corporate-2022
+  - profit-shifting-by-multinational-corporations-evidence-from-2022
+  - statistical-measurement-of-illicit-financial-flows-in-2021
+  - the-excess-profits-during-covid-19-and-2024
+  - a-practical-proposal-to-end-corporate-tax-2022
+  - avoiding-overfitting-in-variable-order-markov-models-2025
+  odissei-social-data-science: []
+  corporate-networks:
+  - uncovering-offshore-financial-centers-conduits-and-sinks-2017
+  - hidden-power-of-the-big-three-passive-2017
+  - the-promise-and-perils-of-using-big-2018
+  - the-rise-of-transnational-state-capital-state-2020
+  - competing-for-capitals-the-great-fragmentation-of-2021
+  - where-is-the-global-corporate-elite-a-2016
+  - the-effects-of-data-quality-on-the-2018
+  - does-it-pay-to-be-a-multinational-2020
+  - institutional-shareholding-common-ownership-and-productivity-a-2
+  - how-does-business-power-operate-a-framework-2022
+  - proximity-at-a-distance-the-relationship-between-2022
+  - states-versus-corporations-rethinking-the-power-of-2017
+  stochasticity-genetic-networks:
+  - tunable-stochastic-pulsing-in-the-escherichia-coli-2013
+  - noise-and-low-level-dynamics-can-coordinate-2015
+  - phenotypic-diversity-using-bimodal-and-unimodal-expression-2016
+  - evolving-modular-genetic-regulatory-networks-with-a-2015

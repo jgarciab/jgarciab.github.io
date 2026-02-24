@@ -1,0 +1,118 @@
+- name: Javier Garcia-Bernardo
+  status: current
+  role_group: me
+  position: Assistant Professor, Social Data Science
+  link: https://javier.science
+  photo: /assets/img/people/javier-garcia-bernardo.png
+  projects:
+    - machine-learning-social-science
+    - networks-and-inequality
+    - taxation-and-economic-crime
+    - odissei-social-data-science
+    - corporate-networks
+    - stochasticity-genetic-networks
+
+- name: Taymara C. Abreu
+  status: current
+  role_group: postdoc
+  position: Postdoctoral Researcher
+  period: 2025-
+  link: https://www.uu.nl/staff/TCAbreu
+  photo: /assets/img/people/taymara-abreu.jpg
+  research_focus: "Works in social epidemiology, using administrative data and quantitative methods to study vaccination decisions and related health inequalities."
+  note: "Co-supervisor: Vincent Buskens."
+  projects:
+    - odissei-social-data-science
+    - machine-learning-social-science
+
+- name: Elena Candellone
+  status: current
+  role_group: phd
+  position: PhD Candidate (daily supervision)
+  period: 2022-
+  link: https://elenacandellone.github.io/
+  photo: /assets/img/people/elena-candellone.jpg
+  research_focus: "Works on network science and computational social science, with a focus on signed networks and polarization."
+  note: "Co-supervisors: Peter Gerbrands and Mahdi Shafiee Kamalabad."
+  projects:
+    - networks-and-inequality
+    - taxation-and-economic-crime
+
+# - name: Andrea Longobucco
+#   status: current
+#   role_group: phd
+#   position: PhD Candidate (daily supervision)
+#   period: 2024-
+#   link: https://www.uu.nl/staff/ALongobucco
+#   photo: /assets/img/people/andrea-longobucco.jpg
+#   research_focus: "Uses machine learning, statistical learning, and AI tools to study corruption and economic and financial crime."
+#   note: "Co-supervisor: Joras Ferwerda."
+#   projects:
+#     - taxation-and-economic-crime
+
+- name: Ozgur Togay
+  status: current
+  role_group: phd
+  position: PhD Candidate (daily supervision)
+  period: 2024-
+  link: https://www.uu.nl/staff/OTogay
+  photo: /assets/img/people/ozgur-togay.jpg
+  research_focus: "Studies political polarization on social media using natural language processing and network modeling."
+  note: "Co-supervisor: Anastasia Giachanou."
+  projects:
+    - networks-and-inequality
+    - machine-learning-social-science
+
+- name: Maas van Steenbergen
+  status: previous
+  role_group: research_master
+  position: Research MSc (Methods & Statistics)
+  period: 2023-2024
+  link: https://mvansteenbergen.github.io/
+  photo: /assets/img/people/maas-van-steenbergen.png
+  research_focus: "Methodology and statistics, including thesis work on ordinal psychological measurements and quantitative structures."
+  projects:
+    - machine-learning-social-science
+  note: "Thesis: Mapping Instability of Rating Scale Responses."
+
+- name: Christine Hedde-von Westernhagen
+  status: previous
+  role_group: research_master
+  position: Research MSc (Methods & Statistics)
+  period: 2022-2023
+  link: https://christine-hvw.github.io/
+  photo: /assets/img/people/christine-hedde-von-westernhagen.jpg
+  research_focus: "Quantitative models of societal processes for sustainability transitions, with a complexity perspective."
+  projects:
+    - networks-and-inequality
+  note: "Thesis: Predicting COVID-19 infections using multi-layer centrality measures."
+
+- name: Polina Revina
+  status: previous
+  role_group: research_master
+  position: Research MSc (Methods & Statistics)
+  period: 2024-2025
+  note: "Thesis: A Simulation Study on Causal Inference under Network Interference: Bias and Adjustment Strategies."
+
+- name: Andrea Longobucco
+  status: previous
+  role_group: research_master
+  position: MSc Student (Statistical and Economic Sciences)
+  period: 2023-2024
+  link: https://www.uu.nl/staff/ALongobucco
+  photo: /assets/img/people/andrea-longobucco.jpg
+  note: "Thesis: Graph Neural Networks in Combating Financial Crime."
+
+- name: Daniel Hansen
+  status: previous
+  role_group: research_master
+  position: MSc Student (Political Science, UvA)
+  period: 2019
+  note: "Thesis: Investigating the effect of firm financialization on effective tax rates."
+
+- name: Joep Uylings
+  status: previous
+  role_group: research_master
+  position: MSc Student (Computer Science)
+  period: 2018
+  note: "Thesis: Opinion Dynamics on Corporate Boards."

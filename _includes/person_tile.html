@@ -1,0 +1,65 @@
+{% assign person = include.person %}
+{% assign has_tile_link = false %}
+{% if person.projects and person.projects.size > 0 %}
+  {% assign has_tile_link = true %}
+{% elsif person.link and person.role_group != "me" %}
+  {% assign has_tile_link = true %}
+{% endif %}
+<article class="tile-card tile-equal person-card{% if has_tile_link %} linked-card{% endif %}">
+  <div class="person-head">
+    {% if person.photo %}
+      {% if person.photo contains '://' %}
+        {% assign photo_src = person.photo %}
+      {% else %}
+        {% assign photo_src = person.photo | relative_url %}
+      {% endif %}
+      <img class="person-photo" src="{{ photo_src }}" alt="{{ person.name }}">
+    {% endif %}
+    <div>
+      <h3>
+        {% if person.link and person.role_group != "me" %}
+          <a href="{{ person.link }}">{{ person.name }}</a>
+        {% else %}
+          {{ person.name }}
+        {% endif %}
+      </h3>
+      <p class="item-meta">{{ person.position }}{% if person.period %} · {{ person.period }}{% endif %}</p>
+    </div>
+  </div>
+  <div class="person-links">
+    {% if person.note %}
+      {% if person.note contains "Co-supervisor:" %}
+        {% assign co_note = person.note | remove_first: "Co-supervisor:" | strip %}
+        <p class="item-meta person-project-links">
+          <strong>Co-supervisor:</strong> {{ co_note }}
+        </p>
+      {% elsif person.note contains "Co-supervisors:" %}
+        {% assign co_note = person.note | remove_first: "Co-supervisors:" | strip %}
+        <p class="item-meta person-project-links">
+          <strong>Co-supervisors:</strong> {{ co_note }}
+        </p>
+      {% else %}
+        <p>{{ person.note }}</p>
+      {% endif %}
+    {% endif %}
+    {% if person.research_focus and person.role_group != "research_master" %}
+      <p class="item-meta person-project-links">
+        <strong>Research:</strong> {{ person.research_focus }}
+      </p>
+    {% endif %}
+    {% if person.projects and person.role_group != "research_master" %}
+      <p class="item-meta person-project-links">
+        <strong>Projects Involved:</strong>
+        {% for slug in person.projects %}
+          {% assign project = site.data.research | where: "slug", slug | first %}
+          {% if project.url %}
+            {% assign project_href = project.url %}
+          {% else %}
+            {% assign project_href = '/projects/' | append: slug | append: '/' | relative_url %}
+          {% endif %}
+          <a href="{{ project_href }}">{{ project.title | default: slug }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+</article>

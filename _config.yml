@@ -1,0 +1,12 @@
+title: Javier Garcia-Bernardo
+description: >
+  Computational Social Scientist, Assistant Professor at Utrecht University. Research interests: (social) networks, inequality, prediction and explanation, tax avoidance, corporate power.
+url: https://javier.science
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile.lock
+  - vendor
+  - research_workspace
