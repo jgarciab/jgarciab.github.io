@@ -16,7 +16,7 @@ permalink: /
     <img class="about-photo" src="{{ '/assets/img/photo_javier.png' | relative_url }}" alt="Javier Garcia-Bernardo">
     <p class="photo-contact">
       j.garciabernardo [@] uu.nl<br>
-      C1.22 Sjoerd Groenmangebouw
+      B.0.16 Sjoerd Groenmangebouw
     </p>
   </div>
   <div>
