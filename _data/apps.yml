@@ -21,9 +21,10 @@
 
 - title: Network Algebra
   topic: Networks
-  status: Coming soon
+  url: https://javier.science/marimo_intro_network_algebra/
   repo: https://github.com/jgarciab/marimo_intro_network_algebra
-  description: Draft app for matrix multiplication, paths, triangles, and centrality on an adjacency matrix.
+  image: /assets/img/apps/marimo_intro_network_algebra.png
+  description: Matrix multiplication, paths, triangles, and centrality on an adjacency matrix.
 
 - title: Bias, Variance, and Cross-Validation
   topic: Machine Learning
