@@ -560,6 +560,97 @@ p {
   flex-direction: column;
 }
 
+.apps-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.apps-topic-grid {
+  margin-bottom: 1.4rem;
+}
+
+.app-card-anchor {
+  padding: 0;
+}
+
+.app-image-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background: var(--header-bg);
+}
+
+.app-image-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.app-image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: var(--muted);
+  background:
+    linear-gradient(135deg, rgba(77, 178, 255, 0.14), rgba(255, 205, 178, 0.16)),
+    var(--header-bg);
+}
+
+.app-image-placeholder span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  background: var(--card-bg);
+  font-size: 0.82rem;
+}
+
+.app-card-body {
+  padding: 0.85rem 0.95rem 0.95rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.app-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.app-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.22;
+}
+
+.app-status {
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.app-summary {
+  font-size: 0.93rem;
+}
+
+.app-repo {
+  margin-top: auto;
+  padding-top: 0.3rem;
+  word-break: break-word;
+}
+
 .person-card {
   gap: 0.2rem;
 }
@@ -808,6 +899,10 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .apps-grid {
+    grid-template-columns: 1fr;
+  }
+
   .cv-map {
     grid-template-columns: 1fr;
   }
@@ -824,6 +919,12 @@ p {
 
 @media (max-width: 980px) {
   .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 761px) and (max-width: 980px) {
+  .apps-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

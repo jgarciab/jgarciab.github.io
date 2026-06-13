@@ -1,0 +1,47 @@
+- title: Community Detection
+  topic: Networks
+  url: https://javier.science/marimo_community_detection/
+  repo: https://github.com/jgarciab/marimo_community_detection
+  image: /assets/img/apps/marimo_community_detection.png
+  description: Interactive Marimo app for exploring how community-detection algorithms partition networks.
+
+- title: Node Embeddings
+  topic: Networks
+  url: https://javier.science/marimo_node_embeddings/
+  repo: https://github.com/jgarciab/marimo_node_embeddings
+  image: /assets/img/apps/marimo_node_embeddings.png
+  description: Spectral, node2vec, and GraphSAGE embeddings, with node classification, running entirely in the browser.
+
+- title: Schelling Segregation Model
+  topic: Networks
+  url: https://javier.science/marimo_schelling/
+  repo: https://github.com/jgarciab/marimo_schelling
+  image: /assets/img/apps/marimo_schelling.png
+  description: Interactive lesson on how mild individual preferences can produce strongly segregated cities.
+
+- title: Network Algebra
+  topic: Networks
+  status: Coming soon
+  repo: https://github.com/jgarciab/marimo_intro_network_algebra
+  description: Draft app for matrix multiplication, paths, triangles, and centrality on an adjacency matrix.
+
+- title: Bias, Variance, and Cross-Validation
+  topic: Machine Learning
+  url: https://javier.science/marimo_bias_variance_app/
+  repo: https://github.com/jgarciab/marimo_bias_variance_app
+  image: /assets/img/apps/marimo_bias_variance_app.png
+  description: Model complexity, bias-variance tradeoffs, validation, and cross-validation for prediction.
+
+- title: Gradient Descent and Regularization
+  topic: Machine Learning
+  url: https://javier.science/marimo_gradient_descent_regularization/
+  repo: https://github.com/jgarciab/marimo_gradient_descent_regularization
+  image: /assets/img/apps/marimo_gradient_descent_regularization.png
+  description: Interactive intuition for fitting models, learning rates, penalties, and controlling complexity.
+
+- title: Intro to Networks
+  topic: Networks
+  url: https://javier.science/marimo_intro_networks/
+  repo: https://github.com/jgarciab/marimo_intro_networks
+  image: /assets/img/apps/marimo_intro_networks.png
+  description: Build intuition about network data through loading, drawing, measuring, and interpreting graphs.
