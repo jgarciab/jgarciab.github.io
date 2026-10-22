@@ -52,4 +52,4 @@
   url: https://javier.science/marimo_splines/
   repo: https://github.com/jgarciab/marimo_splines
   image: /assets/img/apps/marimo_splines.png
-  description: Compare polynomial, piecewise, and spline fits, and explore how flexibility affects training and test error.
+  description: Compare polynomial, piecewise, and spline fits, and explore how flexibility affects training and validation error.
