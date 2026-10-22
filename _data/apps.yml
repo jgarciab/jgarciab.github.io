@@ -46,3 +46,10 @@
   repo: https://github.com/jgarciab/marimo_intro_networks
   image: /assets/img/apps/marimo_intro_networks.png
   description: Build intuition about network data through loading, drawing, measuring, and interpreting graphs.
+
+- title: From Polynomials to Smoothing Splines
+  topic: Machine Learning
+  url: https://javier.science/marimo_splines/
+  repo: https://github.com/jgarciab/marimo_splines
+  image: /assets/img/apps/marimo_splines.png
+  description: Compare polynomial, piecewise, and spline fits, and explore how flexibility affects training and test error.
